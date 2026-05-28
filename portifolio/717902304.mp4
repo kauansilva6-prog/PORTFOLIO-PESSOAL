@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb">
+
+
+<head><link rel="amphtml" href="https://www.redcoolmedia.net/?service=lang-en-en&amp=2&amp=1">
+
+    <script type="text/javascript">
+var siteurl='/';
+var tmplurl='/templates/ja_elastica/';
+var isRTL = false;
+</script>
+
+  <base href="https://www.redcoolmedia.net" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="RedcoolMedia, mobile web, Android mobile, web browser applications, browser extensions, android in the cloud, ios in the cloud, chromebook applications, Chrome extensions, Firefox applications" />
+  <meta name="description" content="Edit videos online, edit audios online, edit music online, edit photos online, and edit any file online with the RedcoolMedia platform, free." />
+  <meta name="generator" content="Mobile and Web Applications" />
+  <title>RedcoolMedia edit videos, audios and any file online</title>
+  <meta property="og:site_name" content="RedCoolMedia.net" />
+  <meta property="og:title" content="RedcoolMedia edit videos, audios and any file online" />
+  <meta property="og:type" content="website" />
+  <link href="/?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="https://www.redcoolmedia.net/component/search/?format=opensearch" rel="search" title="Search for apps" type="application/opensearchdescription+xml" />
+  
+  <link rel="stylesheet" href="/templates/system/css/general.css" type="text/css" media=""  />
+  <link rel="stylesheet" href="/plugins/system/jat3/jat3/base-themes/default/css/addons.css" type="text/css" media=""  />
+  <link rel="stylesheet" href="/plugins/system/jat3/jat3/base-themes/default/css/layout.css" type="text/css" media=""  />
+  <link rel="stylesheet" href="/plugins/system/jat3/jat3/base-themes/default/css/template.css" type="text/css" media=""  />
+  
+  <link rel="stylesheet" href="/plugins/system/jat3/jat3/base-themes/default/css/css3.css" type="text/css" media=""  />
+  <link rel="stylesheet" href="/templates/ja_elastica/css/layout.css" type="text/css" media=""  />
+  <link rel="stylesheet" href="/templates/ja_elastica/css/template-5.css" type="text/css" media="all"  />
+  <link rel="stylesheet" href="/templates/ja_elastica/css/modules.css" type="text/css" media="all"  />
+  
+  <link rel="stylesheet" href="/templates/ja_elastica/css/layout-mobile-5.css" type="text/css" media="only screen and (max-width:719px)"  />
+  <link rel="stylesheet" href="/templates/ja_elastica/css/layout-tablet-5.css" type="text/css" media="only screen and (min-width:720px) and (max-width: 1199px)"  />
+  <link rel="stylesheet" href="/templates/ja_elastica/css/layout-normal-5.css" type="text/css" media="only screen and (min-width:1200px)"  />
+  <link rel="stylesheet" href="/templates/ja_elastica/css/template-5.css" type="text/css" media=""  />
+  <link rel="stylesheet" href="/templates/ja_elastica/css/css3.css" type="text/css" media=""  />
+  <link rel="stylesheet" href="/templates/ja_elastica/css/menu/mega.css" type="text/css" media=""  />
+  
+  
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=yes"/>
+<meta name="HandheldFriendly" content="true" />
+
+
+<link href="/plugins/system/jat3/jat3/base-themes/default/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    
+    <style type="text/css">
+/*dynamic css*/
+</style>
+<script defer src="/./postscribe.min.js"></script>
+
+<script>
+
+window.onload = function(e){ 
+	document.getElementById("ja-header").style.overflowY = "unset";
+}
+
+
+
+function relayouti()
+{
+    setTimeout(function() {
+        var jamainnwrap = document.getElementById("ja-main-wrap");
+        var jamainn = document.getElementById("ja-main");
+        var obj = document.getElementById('ja-content-main');
+        var divHeight = "";
+        if(obj.offsetHeight) {
+                divHeight=obj.offsetHeight;
+
+        } else if(obj.style.pixelHeight) {
+                divHeight=obj.style.pixelHeight;
+
+        }
+        const width  = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+        jamainn.style.height = divHeight + "px";
+        jamainnwrap.style.height = divHeight + "px";
+        relayouti();
+      }, 1000);
+}
+
+
+
+function lazyScript(c,e){var n=document.createElement("script");n.async=!0,e&&(n.onload=e),document.head.appendChild(n),n.src=c}
+
+function lazyScriptwithId(id,c,e){var n=document.createElement("script");n.setAttribute('id', id);n.async=false,e&&(n.onload=e),document.head.appendChild(n),n.src=c}
+
+
+setTimeout(function () {
+    var lazyLoad = false;
+    function onLazyLoad() {
+
+      	if(lazyLoad === true) return;
+      	lazyLoad = true;
+      	document.removeEventListener('scroll', onLazyLoad);
+      	document.removeEventListener('mousemove', onLazyLoad);
+       	document.removeEventListener('mousedown', onLazyLoad);
+	document.removeEventListener('touchstart', onLazyLoad);
+
+	lazyScript("//www.gstatic.com/firebasejs/5.11.1/firebase-app.js");
+	lazyScript("//www.gstatic.com/firebasejs/5.11.1/firebase-messaging.js");
+
+	var lazyImages = [].slice.call(document.querySelectorAll("img.lzl")); if ("IntersectionObserver" in window) { let lazyImageObserver = new IntersectionObserver(function(entries, observer) { entries.forEach(function(entry) { if (entry.isIntersecting) { let lazyImage = entry.target; lazyImage.src = lazyImage.dataset.src; lazyImage.classList.remove("lzl"); lazyImageObserver.unobserve(lazyImage); } }); }); lazyImages.forEach(function(lazyImage) { lazyImageObserver.observe(lazyImage); }); }
+
+
+
+	if (localStorage.getItem('cookieSeen') != 'shown') {
+        document.getElementById("cookie-banner").style.display = 'flex';
+        localStorage.setItem('cookieSeen','shown')
+	};
+
+	document.getElementById("closex").onclick = function(){
+        document.getElementById("cookie-banner").style.display = 'none';
+        localStorage.setItem('cookieSeen','shown');
+	}
+
+
+	relayouti();
+
+
+	lazyScript("//www.googletagmanager.com/gtag/js?id=UA-117545413-2");
+
+	var i0 = '<script> ' +  "   window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-117545413-2'); " + '<\/script>';
+	postscribe(document.head, i0);
+
+
+	const width  = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+           var pathxxx = window.location.pathname;
+	  
+	   if ( pathxxx.indexOf("audiostudio-audio-editor-online-zh-zh") == -1 )
+	   {
+
+		var iii22 = '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"><\/script><ins class="adsbygoogle" style="display: block; max-height: 300px !important; height: 300px !important;" data-ad-client="ca-pub-8556862515989191" data-ad-slot="5337379909" data-ad-format="fluid"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); <\/script> ';
+		//var iii22 = '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"><\/script><!-- redcoolmedia_970_90 --> <ins class="adsbygoogle" style="display:inline-block;width:970px;height:90px" data-ad-client="ca-pub-8556862515989191" data-ad-slot="2064044724"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); <\/script> ';
+		//var iii22 = '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"><\/script><!-- redcoolmedia_970_250 --> <ins class="adsbygoogle" style="display:inline-block;width:970px;height:250px" data-ad-client="ca-pub-8556862515989191" data-ad-slot="9475113967"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); <\/script> ';
+		//var iii22 = '<script async src="ttps://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8556862515989191" crossorigin="anonymous"><\/script><!-- redcoolmedia_970_250 --> <ins class="adsbygoogle" style="display:inline-block;width:970px;height:250px" data-ad-client="ca-pub-8556862515989191" data-ad-slot="9475113967"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); <\/script> ';
+
+
+		document.getElementById('adxxy').style.opacity = "";
+		document.getElementById('adxxyin').style.display = "none";
+		postscribe(document.getElementById('adxxy'), iii22);
+
+
+		var iii22 = '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8556862515989191" crossorigin="anonymous"><\/script><ins class="adsbygoogle" style="display: block; max-height: 300px !important; height: 300px !important;" data-ad-client="ca-pub-8556862515989191" data-ad-slot="8518204294" data-ad-format="fluid"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); <\/script> ';
+
+		document.getElementById('adxxtin').style.display = "none";
+                postscribe(document.getElementById('adxxt'), iii22);
+
+
+		var iii22 = '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8556862515989191" crossorigin="anonymous"><\/script><ins class="adsbygoogle" style="display: block; max-height: 300px !important; height: 300px !important;" data-ad-client="ca-pub-8556862515989191" data-ad-slot="3503828561" data-ad-format="fluid"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); <\/script> ';
+
+		document.getElementById('adredcoolbotin').style.display = "none";
+                postscribe(document.getElementById('adredcoolbot'), iii22);
+	   }
+
+
+
+    }
+    document.addEventListener("scroll", onLazyLoad); 
+    document.addEventListener("mousemove", onLazyLoad); 
+    document.addEventListener("mousedown", onLazyLoad); 
+    document.addEventListener("touchstart", onLazyLoad); 
+    document.addEventListener("load", function () {document.body.clientHeight != document.documentElement.clientHeight && 0 == document.documentElement.scrollTop && 0 == document.body.scrollTop || onLazyLoad()});
+  }, 300);
+
+
+
+
+</script>
+
+
+<!--
+<script defer src="https://www.gstatic.com/firebasejs/5.11.1/firebase-app.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/5.11.1/firebase-messaging.js"></script>
+-->
+
+<!-- <script defer src="https://www.googletagmanager.com/gtag/js?id=UA-117545413-2"></script> -->
+
+<style>
+.word .inputbox 
+{
+    height: 30px;
+    font-size: 16px;
+    width: 70%;
+    margin-bottom: 0px;
+}
+
+.word .button 
+{
+    padding: 7px 10px;
+    margin: 5px 0px;
+    font-size: 16px;
+}
+</style>
+
+<link rel="preconnect dns-prefetch" href="https://pagead2.googlesyndication.com"><link rel="preconnect dns-prefetch" href="https://googleads.g.doubleclick.com"><link rel="preconnect dns-prefetch" href="https://apis.google.com/"><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"><link rel="preconnect dns-prefetch" href="https://www.googletagservices.com"><link rel="preconnect dns-prefetch" href="https://securepubads.g.doubleclick.net"><link rel="preconnect dns-prefetch" href="https://www.googletagmanager.com"><meta name="apple-mobile-web-app-status-bar" content="#920606"><meta name="theme-color" content="#920606"><style>    @media screen and (max-width: 719px) {
+	.toggle-menu {
+        	font-size: 1.25em;
+        	padding-left: 20px;
+	}
+
+        .menux {
+                background-color: #000000;
+                color: white;
+                position: relative;
+                left: 0;
+                width: 100%;
+                padding: 15px 0 5px 0;
+                z-index: 10;
+		max-height: 5px;
+        }
+    }   
+
+    @media screen and (min-width: 720px) {
+        .toggle-menu {
+                display: none;
+        }
+
+	.menux {
+	      	background-color: #000000;
+      		color: white;
+      		position: relative;
+      		left: 0;
+      		width: 100%;
+      		padding: 6px 0 6px 0;
+      		z-index: 10;
+		font-size: 1.3em;
+	}
+	
+    }   
+
+.items-leading {
+    padding: 0px !important;
+}
+
+
+.main .main-inner1 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+#ja-search {
+    border-bottom: 0px !important; 
+}
+
+#ja-top {
+    border-left: 0px !important;
+}
+
+    .menux input[type="checkbox"] {
+      opacity: 0;
+      position: absolute;
+      left: -9999px;
+    }
+    .menux a, .menux .toggle-menux {
+      color: white;
+      text-decoration: none;
+      -webkit-transition: .3s all ease;
+      transition: .3s all ease;
+    }
+    .menux a:hover, .menux .toggle-menux:hover {
+      color: #E3DFE6;
+    }
+    .menux .toggle-menux {
+      display: none;
+      padding-left: 10px;
+    }
+    .menux .toggle-menux:hover {
+      cursor: pointer;
+    }
+    @media screen and (max-width: 719px) {
+      .menux .toggle-menux {
+        display: block;
+      }
+    }
+    @media screen and (max-width: 719px) {
+      .menux .nav {
+        background: #b95364;
+        position: relative;
+        height: 100%;
+        width: 320px;
+	margin-top: 22px;
+        left: 0;
+        -webkit-transition: .3s all ease;
+        transition: .3s all ease;
+        -webkit-transform: translateX(-320px);
+                transform: translateX(-320px);
+        overflow-y: auto;
+        font-size: 18px;
+      }
+      .menux #toggle-responsive:checked ~ .nav {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+      }
+    }
+    .menux label.toggle {
+      color: transparent;
+      position: relative;
+    }
+    .menux label.toggle:hover {
+      cursor: pointer;
+    }
+    .menux label.toggle:hover:before {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-color: transparent transparent transparent #E3DFE6;
+      border-width: 5.33333px;
+    }
+    .menux label.toggle:before {
+      content: "";
+      font-size: 16px;
+      -webkit-transition: .3s all ease;
+      transition: .3s all ease;
+      position: absolute;
+      top: 50%;
+      left: 5px;
+      -webkit-transform: translateY(0%) rotate(90deg);
+              transform: translateY(0%) rotate(90deg);
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-color: transparent transparent transparent white;
+      border-width: 5.33333px;
+    }
+    @media screen and (max-width: 719px) {
+      .menux label.toggle:before {
+        left: 15px;
+      }
+    }
+    .menux ul {
+      position: relative;
+    }
+    .menux ul,
+    .menux ul li {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .menux ul > li {
+      position: relative;
+      padding: 10px;
+    }
+    @media screen and (min-width: 720px) {
+      .menux ul > li {
+        display: inline;
+        padding: 0 10px;
+      }
+    }
+    .menux ul > li > ul {
+      position: absolute;
+      top: calc(100% + 10px);
+      left: 0;
+      background: #C06574;
+      display: none;
+    }
+    @media screen and (max-width: 719px) {
+      .menux ul > li > ul {
+        position: relative;
+        left: -10px;
+        background: rgba(0, 0, 0, 0.1);
+        width: calc(100% + 20px);
+      }
+    }
+    @media screen and (min-width: 720px) {
+      .menux ul > li > ul > li {
+        display: block;
+        white-space: nowrap;
+	height: 30px;
+        padding: 10px 30px 10px 15px;
+      }
+      .menux ul > li > ul > li label.toggle:before {
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+      }
+      .menux ul > li > ul ul {
+        left: 100%;
+        top: 0;
+      }
+    }
+    .menux ul > li input[type="checkbox"]:checked + ul {
+      display: block;
+    }
+
+
+
+</style></head>
+
+<body id="bd" class="bd fs3 com_content" >
+
+
+<div id="interstitial_x"> </div>
+<a name="Top" id="Top"></a>
+
+
+
+
+
+
+<div id="ja-wrapper">
+
+	            <div id="ja-header"
+            	class="wrap ">
+                   <div class="main">
+                           <div class="main-inner1 clearfix">
+                <div id="ja-mainnav" class="clearfix">
+
+
+	<div class="menux">
+  <label for="toggle-responsive" class="toggle-menu">MENU</label>
+  <input type="checkbox" id="toggle-responsive"/>
+
+  <ul class="nav level-one">
+    <li><a href="https://www.redcoolmedia.net/"   id="menu763" title="Video and audio editor online over millions of videos free Redcoolmedia">Home</a></li>
+
+
+    <li class="parent"><a href="/main-cloud-web-applications"   id="menu631" title="Web">Web</a>
+
+
+      <label for="toggle-level-2-01" class="toggle">o</label>
+      <input type="checkbox" id="toggle-level-2-01"/>
+      <ul class="level-two">
+    <li><a href="/main-cloud-web-applications/web-apps-productivity"   id="menu646" title="Productivity web apps"><span class="has-image" style="background-position: left center; background-image:url(/images/buttonproductiivity.png);">Productivity</span></a></li><li  ><a href="/main-cloud-web-applications/web-apps-images-graphics"   id="menu647" title="Run graphics web apps"><span class="has-image" style="background-position: left center; background-image:url(/images/buttonimages.png);">Images &amp; Graphics</span></a></li><li  ><a href="/main-cloud-web-applications/web-apps-audio-video"   id="menu648" title="Run video and audio web apps"><span class="has-image" style="background-position: left center; background-image:url(/images/buttonvideo.png);">Audio &amp; Video</span></a></li><li  ><a href="/main-cloud-web-applications/web-apps-messaging"   id="menu649" title="Run messaging web apps"><span class="has-image" style="background-position: left center; background-image:url(/images/buttonmessaging.png);">Messaging</span></a></li><li  ><a href="/main-cloud-web-applications/web-apps-utilities"   id="menu650" title="Run utilities web apps"><span class="has-image" style="background-position: left center; background-image:url(/images/buttonutility.png);">Utilities</span></a></li></ul>
+</li>
+
+
+    <li class="parent"><a href="/main-mobile-apps"   id="menu634" title="Mobile">Mobile</a>
+
+
+      <label for="toggle-level-2-02" class="toggle">o</label>
+      <input type="checkbox" id="toggle-level-2-02"/>
+      <ul class="level-two">
+    <li><a href="/main-mobile-apps/android"   id="menu653" title="Run redcoolmedia android apps"><span class="has-image" style="background-position: left center; background-image:url(/images/buttonandroid.png);">Android</span></a></li><li  ><a href="/main-mobile-apps/ios-iphone-ipad"   id="menu657" title="Run apple redcoolmedia apps"><span class="has-image" style="background-position: left center; background-image:url(/images/buttonapple.png);">Apple</span></a></li></ul>
+</li>
+
+
+    <li class="parent"><a href="/main-browser-extensions"   id="menu632" title="Extensions">Extensions</a>
+
+
+      <label for="toggle-level-2-03" class="toggle">o</label>
+      <input type="checkbox" id="toggle-level-2-03"/>
+      <ul class="level-two">
+    <li><a href="/main-browser-extensions/web-extensions-utilities"   id="menu652" title="Run extensions redcoolmedia utilities apps"><span class="has-image" style="background-position: left center; background-image:url(/images/buttonutility.png);">Utilities</span></a></li><li  ><a href="/main-browser-extensions/web-extensions-productivity"   id="menu651" title="Run extensions redcoolmedia productivity apps"><span class="has-image" style="background-position: left center; background-image:url(/images/buttonproductiivity.png);">Productivity</span></a></li><li  ><a href="https://www.redcoolmedia.net/provisioning/prenewdocfile.php?username=demo01&amp;filename=demoexample1&amp;reset=1"   id="menu582" title="Create doc with webapp"><span class="has-image" style="background-position: left center; background-image:url(/images/buttondoc.png);">Create doc online</span></a></li><li  ><a href="https://www.redcoolmedia.net/provisioning/prenewxlsfile.php?username=demo01&amp;filename=demoexample1&amp;reset=1"   id="menu581" title="Create excel with webapp"><span class="has-image" style="background-position: left center; background-image:url(/images/buttonxls.png);">Create excel online</span></a></li><li  ><a href="https://www.redcoolmedia.net/provisioning/prenewpptfile.php?username=demo01&amp;filename=demoexample1&amp;reset=1"   id="menu583" title="Create powerpoint with webapp"><span class="has-image" style="background-position: left center; background-image:url(/images/buttonppt.png);">Create ppt online</span></a></li><li  ><a href="https://www.redcoolmedia.net/provisioning/logincalendargate.php?username=demo0a"   id="menu584" title="Calendar online">Calendar online</a></li><li  ><a href="https://www.redcoolmedia.net/provisioning/logincontactsgate.php?username=demo0a"   id="menu585" title="Contacts online">Contacts online</a></li><li  ><a href="https://www.redcoolmedia.net/provisioning/loginpasswordhub.php?username=demo0a"   id="menu586" title="Passwords online">Passwords online</a></li></ul>
+</li>
+
+
+    <li class="parent"><a href="/resources"   id="menu659" title="Resources">Resources</a>
+
+
+      <label for="toggle-level-2-04" class="toggle">o</label>
+      <input type="checkbox" id="toggle-level-2-04"/>
+      <ul class="level-two">
+    <li><a href="/resources/new-features"   id="menu672" title="New Features">New Features</a></li><li  ><a href="/resources/games"   id="menu675" title="Games">Games</a></li><li  ><a href="/resources/marketplaces"   id="menu673" title="MarketPlaces">MarketPlaces</a></li><li  ><a href="/resources/tutorials"   id="menu674" title="Tutorials">Tutorials</a></li></ul>
+</li>
+
+
+    <li class="parent"><a href="/download/videos"   id="menu678" title="Videos">Videos</a>
+
+
+      <label for="toggle-level-2-05" class="toggle">o</label>
+      <input type="checkbox" id="toggle-level-2-05"/>
+      <ul class="level-two"><li  ><a href="/download/videos"   id="menu679" title="- Videos:">- Videos</a><div>
+
+
+</li><li  ><a href="/download/web-apps"   id="menu680" title="- Web apps">- Web apps</a></li></ul>
+</li>
+
+
+    <li class="parent"><a href="#"   id="menu645" title="Lang">Lang</a>
+
+
+      <label for="toggle-level-2-06" class="toggle">o</label>
+      <input type="checkbox" id="toggle-level-2-06"/>
+      <ul class="level-two">
+    <li><a href="https://www.redcoolmedia.net/changeto.php?lang=en"   id="menu640" title="RedcoolMedia video multimedia and multi file editors in english"><span class="has-image" style="background-position: left center; background-image:url(/images/langen.png);">English</span></a></li><li  ><a href="https://www.redcoolmedia.net/changeto.php?lang=es"   id="menu639" title="RedcoolMedia video multimedia and multi file editors in spanish"><span class="has-image" style="background-position: left center; background-image:url(/images/langes.png);">Español</span></a></li><li  ><a href="https://www.redcoolmedia.net/changeto.php?lang=de"   id="menu691" title="RedcoolMedia video multimedia and multi file editors in German"><span class="has-image" style="background-position: left center; background-image:url(/images/langde.png);">Deutsche</span></a></li><li  ><a href="https://www.redcoolmedia.net/changeto.php?lang=fr"   id="menu692" title="RedcoolMedia video multimedia and multi file editors in French"><span class="has-image" style="background-position: left center; background-image:url(/images/langfr.png);">Français</span></a></li><li  ><a href="https://www.redcoolmedia.net/changeto.php?lang=ru"   id="menu693" title="RedcoolMedia video multimedia and multi file editors in Russian"><span class="has-image" style="background-position: left center; background-image:url(/images/langru.png);">Pусский</span></a></li><li  ><a href="https://www.redcoolmedia.net/changeto.php?lang=pt"   id="menu694" title="RedcoolMedia video multimedia and multi file editors in Portuguese"><span class="has-image" style="background-position: left center; background-image:url(/images/langpt.png);">Português</span></a></li><li  ><a href="https://www.redcoolmedia.net/changeto.php?lang=hi"   id="menu696" title="RedcoolMedia video multimedia and multi file editors in Hindi"><span class="has-image" style="background-position: left center; background-image:url(/images/langhi.png);">हिंदी</span></a></li><li  ><a href="https://www.redcoolmedia.net/changeto.php?lang=zh"   id="menu697" title="RedcoolMedia video multimedia and multi file editors in Chinese"><span class="has-image" style="background-position: left center; background-image:url(/images/langzh.png);">中文</span></a></li></ul>
+</li></ul>
+</div>            </div>
+
+<div id="ja-top" class="clearfix" style="height: 40px; min-height: 40px; width: 45px;" >
+	
+
+                <div id="ja-search" style="height: 40px; min-height: 40px;" >
+
+		<span class="search-btn"><img class="search-btn" style="height: 22px; width: 22px;" src="/templates/ja_elastica/images/icon-search.png" loading="lazy" alt="search" title="search"></img></span>
+		<div style="display: none;">
+			<form action="/" method="post" class="search">
+		<label for="mod-search-searchword_1">Enter string:</label><input name="searchword" id="mod-search-searchword_1" maxlength="50"  class="inputbox" type="text" size="60" value="..."  onblur="if (this.value=='') this.value='...';" onfocus="if (this.value=='...') this.value='';" /><input type="submit" value="search" class="button" onclick="this.form.searchword.focus();"/>	<input type="hidden" name="task" value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="435" />
+</form>
+
+		</div>
+	</div>
+	<script type="text/javascript">
+
+window.addEventListener('load', function () {
+
+		document.getElementById("ja-search").addEventListener("click", function( event ) {
+                        console.log("search click");
+                        window.location="/component/search/?searchword=funny&ordering=newest&searchphrase=all&limit=150";
+                }, false);
+
+
+                // toggle search box active when click on search button
+                //document.getElementsByClassName('search-btn')[0].addEventListener ('mouseenter', function () {
+                        // focus on search box
+                 //       $('mod-search-searchword').focus();
+                //});
+                //$('mod-search-searchword').addEvents ({
+                 //       'blur': function () {$('ja-search').removeClass ('active');},
+                  //      'focus': function () {$('ja-search').addClass ('active');}
+                //});
+});
+
+	</script>
+		</div>
+
+<ul class="no-display">
+    <li><a href="#ja-content" title="Skip to content">Skip to content</a></li>
+</ul>                </div>
+                            </div>
+                        </div>
+            
+
+	
+
+
+
+
+
+
+
+<div id="adxxq" style="text-align: center; ">
+
+</div>
+
+
+	<!-- MAIN CONTAINER -->
+	<div id="ja-container" class="wrap ja-mf clearfix" style="height: auto !important; top: 0px;">
+		<div style="text-align: center; width: 100%; margin: auto;"><img src="/plugins/system/jat3/jat3/base-themes/default/images/favicon.ico" alt="RedcoolMedia favicon" width="1" height="1"></img><h1 style="padding: 10px 10px 10px 10px;">RedcoolMedia edit videos, audios and any file online</h1></div><div id="ja-main-wrap" class="main clearfix" style="min-height:600px;height: 1200px !important; width: 100%;">
+
+
+			<div id="ja-main" class="clearfix" style="min-height:600px;height:1200px !important;">
+									<div id="ja-content" class="ja-content">
+											
+						<div id="ja-content-main" class="ja-content-main clearfix">
+							
+<div id="system-message-container">
+</div>							
+
+<div class="blog-featured">
+
+
+<div class="items-leading">
+			<div class="leading leading-0 clearfix">
+			
+<div class="contentpaneopen clearfix">
+
+
+	<h2 class="contentheading" style="font-weight: bold;">
+					<a href="/redcoolmedia-default-articles/redcoolmedia/redcoolmedia-introduction-mission">
+			Welcome to RedcoolMedia</a>
+			</h2>
+
+
+
+
+
+<p>RedcoolMedia is a platform that provides online editors to create or modify any media file, either video, or audio, or music, or graphic, or office files.  Our products are apps such as online video editors, online audio editors online or online photo editor. These apps have been implemented using different software and technologies in order to run over the web browsers Chrome and FireFox, iOS and Android. These apps will help you to improve the business productivity when dealing with any kind of file. RedcoolMedia is delivered as cross platform apps that empower our customers to access any type of information resources. Moreover RedcoolMedia provides repositories with Videos, Web apps and Web related tools. You can download, play and edit all these videos with our apps MovieStudio video editor online and AudioStudio audio editor online.</p>
+
+
+</div>
+
+<div class="item-separator"></div>
+		</div>
+			</div>
+	
+	
+		<div  id="ja-container-prev" class="main clearfix" style="margin-top: 0px;" > <div id="adxxy" style="display:block; text-align: center; min-width: 350px; width; 100%; min-height:300px; max-height: 300px; margin-top: 0px; margin-left: 0px; margin-bottom: 0px; margin-right: 0px; overflow: hidden; opacity: 0.1; "><div id="adxxyin" style="text-align: center; min-height; 300px; max-height: 300px; padding-top: 120px; padding-bottom: 120px; width: 100%; min-width: 100%; background: #000; "> <p style="color: #fff; font-size: 15px;">Ad</p> </div> </div> </div><div class="items-row cols-2 row-0 clearfix">
+				<div class="item column-1">
+			
+<div class="contentpaneopen clearfix">
+
+
+	<h2 class="contentheading" style="font-weight: bold;">
+					<a href="/main-cloud-web-applications/web-apps-audio-video/moviestudio-movie-maker-video-editor-online-web">
+			Movie maker MovieStudio movie and video editor online</a>
+			</h2>
+
+
+
+
+
+<p>
+<script type="text/javascript">// <![CDATA[
+function webmoviestudio() {
+     
+window.open("https://www.redcoolmedia.net/PopcornEditor/moviemaker.html", '_blank');   
+return false;
+           
+}
+// ]]></script>
+</p>
+<p><a href="#" title="Movie maker MovieStudio movie and video editor online" onclick="return webmoviestudio();"><img src="/images/moviestudioicon128.jpg" loading="lazy" width="128px" height="128px" border="0" alt="Movie maker MovieStudio movie and video editor online" title="Movie maker MovieStudio movie and video editor online" /></a></p>
+<p>Web-based movie maker online to record videos, create, change and mix movies using a composition of videos, audios, images and texts. App available in our cloud hosted platform: </p>
+<p><a href="javascript:void(0)" onclick="return webmoviestudio();" style="background: #e30000; float: right; margin-right: 10px; color: #fff; line-height: 30px; font-size: .85em; display: block; padding: 0 1em; margin-left: .5em; padding-right: 2em; padding-left: 2em; text-transform: uppercase; text-decoration: none!important;">ENTER</a></p>
+
+		<p class="readmore">
+			<a href="/main-cloud-web-applications/web-apps-audio-video/moviestudio-movie-maker-video-editor-online-web">
+					Learn more</a>
+		</p>
+
+
+</div>
+
+<div class="item-separator"></div>
+		</div>
+						
+			<div class="item column-2">
+			
+<div class="contentpaneopen clearfix">
+
+
+	<h2 class="contentheading" style="font-weight: bold;">
+					<a href="/main-cloud-web-applications/web-apps-images-graphics/photostudio-photo-editor-graphics-images">
+			PhotoStudio photo editor for images &amp; graphics</a>
+			</h2>
+
+
+
+
+
+<p>
+<script type="text/javascript">// <![CDATA[
+function webphotostudio() {
+     
+window.open("https://www.redcoolmedia.net/appdirect/prephotstudio.php", '_blank');   
+return false;
+           
+}
+// ]]></script>
+</p>
+<p><a href="#" title="PhotoStudio photo editor for images and graphics" onclick="return webphotostudio();"><img src="/images/webphotostudioicon128.jpg" loading="lazy" width="128px" height="128px" border="0" alt="PhotoStudio photo editor for images and graphics" title="PhotoStudio photo editor for images and graphics" /></a></p>
+<p>PhotoStudio is a photo editor to take pictures, import them, and edit any kind of images and graphics. App available in our cloud hosted platform: </p>
+<p><a href="javascript:void(0)" onclick="return webphotostudio();" style="background: #e30000; float: right; margin-right: 10px; color: #fff; line-height: 30px; font-size: .85em; display: block; padding: 0 1em; margin-left: .5em; padding-right: 2em; padding-left: 2em; text-transform: uppercase; text-decoration: none!important;">ENTER</a></p>
+
+		<p class="readmore">
+			<a href="/main-cloud-web-applications/web-apps-images-graphics/photostudio-photo-editor-graphics-images">
+					Learn more</a>
+		</p>
+
+
+</div>
+
+<div class="item-separator"></div>
+		</div>
+									<!--span class="row-separator"></span-->
+			</div>
+				
+	
+		<div class="items-row cols-2 row-1 clearfix">
+				<div class="item column-1">
+			
+<div class="contentpaneopen clearfix">
+
+
+	<h2 class="contentheading" style="font-weight: bold;">
+					<a href="/main-cloud-web-applications/web-apps-audio-video/audiostudio-audio-editor-online">
+			AudioStudio audio editor online</a>
+			</h2>
+
+
+
+
+
+<p>
+<script type="text/javascript">// <![CDATA[
+function webaudiostudio() {
+     
+window.open("https://www.redcoolmedia.net/appdirect/preaudistudio.php", '_blank');   
+return false;
+           
+}
+// ]]></script>
+</p>
+<p><a href="#" title="AudioStudio audio editor online" onclick="return webaudiostudio();"><img src="/images/webaudiostudioicon128.jpg" loading="lazy" width="128px" height="128px" border="0" alt="AudioStudio audio editor online" title="AudioStudio audio editor online" /></a></p>
+<p>Create and edit any audio file with the AudioStudio, the integration of Beautiful audio editor with RedcoolMedia. App available in our cloud hosted platform: </p>
+<p><a href="javascript:void(0)" onclick="return webaudiostudio();" style="background: #e30000; float: right; margin-right: 10px; color: #fff; line-height: 30px; font-size: .85em; display: block; padding: 0 1em; margin-left: .5em; padding-right: 2em; padding-left: 2em; text-transform: uppercase; text-decoration: none!important;">ENTER</a></p>
+
+		<p class="readmore">
+			<a href="/main-cloud-web-applications/web-apps-audio-video/audiostudio-audio-editor-online">
+					Learn more</a>
+		</p>
+
+
+</div>
+
+<div class="item-separator"></div>
+		</div>
+						
+			<div class="item column-2">
+			
+<div class="contentpaneopen clearfix">
+
+
+	<h2 class="contentheading" style="font-weight: bold;">
+					<a href="/main-cloud-web-applications/web-apps-images-graphics/paintmagick-image-editor-for-photos">
+			PaintMagick image editor for photos</a>
+			</h2>
+
+
+
+
+
+<p>
+<script type="text/javascript">// <![CDATA[
+function webpaintmagick() {
+     
+window.open("https://www.redcoolmedia.net/paintmagick/", '_blank');   
+return false;
+           
+}
+// ]]></script>
+</p>
+<p><a href="#" title="PaintMagick image editor for photos" onclick="return webpaintmagick();"><img src="/images/paintmagickicon128.jpg" loading="lazy" width="128px" height="128px" border="0" alt="PaintMagick image editor for photos" title="PaintMagick image editor for photos" /></a></p>
+<p>Our web application to edit images images and photos with advanced drawing features, effects and filters. App available in our cloud hosted platform: </p>
+<p><a style="background: #e30000; float: right; margin-right: 10px; color: #fff; line-height: 30px; font-size: .85em; display: block; padding: 0 1em; margin-left: .5em; padding-right: 2em; padding-left: 2em; text-transform: uppercase; text-decoration: none!important;" href="javascript:void(0)" onclick="return webpaintmagick();">ENTER</a></p>
+
+		<p class="readmore">
+			<a href="/main-cloud-web-applications/web-apps-images-graphics/paintmagick-image-editor-for-photos">
+					Learn more</a>
+		</p>
+
+
+</div>
+
+<div class="item-separator"></div>
+		</div>
+									<!--span class="row-separator"></span-->
+			</div>
+				
+	
+		<div class="items-row cols-2 row-2 clearfix">
+				<div class="item column-1">
+			
+<div class="contentpaneopen clearfix">
+
+
+	<h2 class="contentheading" style="font-weight: bold;">
+					<a href="/main-cloud-web-applications/web-apps-audio-video/videoconvertplus-video-converter-online-mp4-avi-mov-wmv-dvd-ogg-gif">
+			VideoConvertPlus video converter online for MP4, AVI, MOV, WMV, DVD, OGG, GIF</a>
+			</h2>
+
+
+
+
+
+<p>
+<script type="text/javascript">// <![CDATA[
+function webvideoconvertplus() {
+     
+window.open("https://www.redcoolmedia.net/videoonlineconverter/", '_blank');   
+return false;
+           
+}
+// ]]></script>
+</p>
+<p><a href="#" title="VideoConvertPlus video converter online" onclick="return webvideoconvertplus();"><img src="/images/videoconvertplusicon128.jpg" loading="lazy" width="128px" height="128px" border="0" alt="VideoConvertPlus video converter online" title="VideoConvertPlus video converter online" /></a></p>
+<p>Web-based video converter online to convert video formats MP4, MOV, MPG, OGG, AVI, DVD, GIF animated between each other. App available in our cloud hosted platform: </p>
+<p><a style="background: #e30000; float: right; margin-right: 10px; color: #fff; line-height: 30px; font-size: .85em; display: block; padding: 0 1em; margin-left: .5em; padding-right: 2em; padding-left: 2em; text-transform: uppercase; text-decoration: none!important;" href="javascript:void(0)" onclick="return webvideoconvertplus();">ENTER</a></p>
+
+		<p class="readmore">
+			<a href="/main-cloud-web-applications/web-apps-audio-video/videoconvertplus-video-converter-online-mp4-avi-mov-wmv-dvd-ogg-gif">
+					Learn more</a>
+		</p>
+
+
+</div>
+
+<div class="item-separator"></div>
+		</div>
+						
+			<div class="item column-2">
+			
+<div class="contentpaneopen clearfix">
+
+
+	<h2 class="contentheading" style="font-weight: bold;">
+					<a href="/main-cloud-web-applications/web-apps-images-graphics/svg-editor-online-for-vector-graphics">
+			SVG editor online for vector graphics</a>
+			</h2>
+
+
+
+
+
+<p>
+<script type="text/javascript">// <![CDATA[
+function websvgedit() {
+     
+window.open("https://www.redcoolmedia.net/appdirect/svgedit/editor/svg-editor.html", '_blank');   
+return false;
+           
+}
+// ]]></script>
+</p>
+<p><a href="#" title="SVG editor online for vector graphics" onclick="return websvgedit();"><img src="/images/svgediticon128.png" loading="lazy" width="128px" height="128px" border="0" alt="SVG editor online for vector graphics" title="SVG editor online for vector graphics" /></a></p>
+<p><span style="font-size: 14px;">RedcoolMedia SVG editor online is the SVG-edit hosted in our servers</span>. App available in our cloud hosted platform: </p>
+<p><a href="javascript:void(0)" onclick="return websvgedit();" style="background: #e30000; float: right; margin-right: 10px; color: #fff; line-height: 30px; font-size: .85em; display: block; padding: 0 1em; margin-left: .5em; padding-right: 2em; padding-left: 2em; text-transform: uppercase; text-decoration: none!important;">ENTER</a></p>
+
+		<p class="readmore">
+			<a href="/main-cloud-web-applications/web-apps-images-graphics/svg-editor-online-for-vector-graphics">
+					Learn more</a>
+		</p>
+
+
+</div>
+
+<div class="item-separator"></div>
+		</div>
+									<!--span class="row-separator"></span-->
+			</div>
+				
+	<div class="items-more clearfix">
+	<h3>More Articles...</h3>
+
+<ol>
+	<li>
+		<a href="/main-cloud-web-applications/web-apps-productivity/offistar-office-webapp-for-xls-ppt-doc">
+			OfficeWork office web app for XLS, DOC, PPT</a>
+	</li>
+	<li>
+		<a href="/main-cloud-web-applications/web-apps-productivity/xlsstar-xls-editor-online">
+			XLSstar XLS editor online for spreadsheets</a>
+	</li>
+	<li>
+		<a href="/main-cloud-web-applications/web-apps-productivity/pdfoffice-pdf-editor-online-adobe">
+			PDFOffice PDF editor online for Adobe documents</a>
+	</li>
+	<li>
+		<a href="/main-cloud-web-applications/web-apps-images-graphics/xtopxpaint-image-editor">
+			TopPaint Image editor Etherdraw</a>
+	</li>
+</ol>	</div>
+
+
+</div>
+
+						</div>
+						
+												
+					</div>
+											</div>
+						
+		</div>
+
+
+
+
+
+
+<div  id="ja-container-prev-c" class="main clearfix" style="margin-top: 0px;" >
+   <div id="adredcoolbot" style="display:block; text-align: center; min-width: 350px; width; 100%; min-height:300px; max-height: 300px; margin-top: 0px; margin-left: 0px; margin-bottom: 0px; margin-right: 0px; overflow: hidden; ">
+        <div id="adredcoolbotin" style="text-align: center; min-height; 300px; max-height: 300px; padding-top: 120px; padding-bottom: 120px; width: 100%; min-width: 100%; background: #000; ">
+                <p style="color: #fff; font-size: 15px;">Ad</p>
+        </div>
+   </div>
+</div>
+
+
+
+
+
+
+	</div>
+    <!-- //MAIN CONTAINER -->
+
+
+
+
+
+
+<div  id="ja-container-prev-b" class="main clearfix" style="margin-top: 0px;" >
+   <div id="adxxt" style="display:block; text-align: center; min-width: 350px; width; 100%; min-height:300px; max-height: 300px; margin-top: 0px; margin-left: 0px; margin-bottom: 0px; margin-right: 0px; overflow: hidden; ">
+        <div id="adxxtin" style="text-align: center; min-height; 300px; max-height: 300px; padding-top: 120px; padding-bottom: 120px; width: 100%; min-width: 100%; background: #000; ">
+                <p style="color: #fff; font-size: 15px;">Ad</p>
+        </div>
+   </div>
+</div>
+
+
+
+
+
+
+                <div id="ja-footer"
+            	class="wrap ">
+                   <div class="main clearfix">
+           <div class="ja-copyright">
+    
+<ul class="menu">
+<li class="item-587"><a href="/cookies-policy" >Cookies Policy</a></li><li class="item-507"><a href="/faqs" >FAQs</a></li><li class="item-509"><a href="/team-company" >Team &amp; Company</a></li><li class="item-689"><a rel="noreferrer" href="https://github.com/redcoolmedia" target="_blank" >Github</a></li></ul>
+
+<ul class="menu">
+<li class="item-505"><a href="/cloud-apps-policy" >Cloud Apps Policy</a></li><li class="item-626"><a href="/ciphermail-policy" >CipherMail Policy</a></li><li class="item-532"><a href="/main-mobile-policy" >Mobile Apps Policy</a></li><li class="item-701"><a href="/video-privacy" >Video Privacy</a></li><li class="item-688"><a rel="noreferrer" href="https://vimeo.com/user39213144" target="_blank" >Vimeo</a></li><li class="item-642"><a rel="noreferrer" href="https://www.youtube.com/channel/UCy-tFQKRz1YqY-RgKJG8FSA" target="_blank" >YouTube</a></li></ul>
+
+<ul class="menu">
+<li class="item-515"><a href="/job-positions" >Job positions</a></li><li class="item-613"><a href="/terms-of-service" >Terms of Service</a></li><li class="item-506"><a href="/cdn-cgi/l/email-protection#d2a0b7b6b1bdbdbebfb7b6bbb392bbbcb0bdaafcb1bdbf">Support &amp; Contact</a></li><li class="item-690"><a rel="noreferrer" href="https://www.slideshare.net/Redcoolmedia/presentations" target="_blank" >SlideShare</a></li></ul>
+
+</div>
+
+
+<div id="ja-poweredby" class="t3-logo t3-logo-light">
+    <a href="#" title="Powered By T3 Framework" target="_blank" >Powered By T3 Framework</a>
+</div>            </div>
+                        </div>
+            
+</div>
+
+
+
+
+
+<style>
+.cookie-banner {
+  position: fixed;
+  bottom: 0px;
+  left: 0%;
+  right: 0%;
+  padding: 5px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  z-index: 99;
+  font-size: 10px;
+}
+.cookie-banner a {
+ color: #4ef4f5;
+}
+.close {
+  height: 20px;
+  background-color: #777;
+  border: none;
+  color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+</style>
+
+<div id="cookie-banner" class="cookie-banner" style="display: none">
+<p>
+    We use cookies to personalise content and ads, and to analyse our traffic. You acknowledge that you have reviewed and accepted our policies.
+    <a href="https://www.redcoolmedia.net/index.php/cookies-policy">More info</a>
+  </p>
+<button id="closex" class="close">&times;</button>
+</div>
+
+
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","name":"RedCoolMedia","url":"https://www.redcoolmedia.net/","potentialAction":{"@type":"SearchAction","target":"https://www.redcoolmedia.net/component/search/?searchword={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"Corporation","name":"RedCoolMedia","url":"https://www.redcoolmedia.net/","logo":"https://www.redcoolmedia.net/media/assets/moviestudio512.png","address":{"@type":"PostalAddress","addressLocality":"Tallin, Estonia","postalCode":"10111","streetAddress":"Kesklinna linnaosa, Viru Valjak, 2"}}</script>
+<script type="application/ld+json">{"@context": "http://schema.org","@type": "BreadcrumbList","itemListElement": [{"@type": "ListItem","position":1,"name": "Home","item": "https://www.redcoolmedia.net/"}]}</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"6f9e6af65f8c40a88efc4fd669b30499","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+
+
+
+</html>
