@@ -1,136 +1,90 @@
-.pol img {
-            max-width: 200px;
-            height: auto;
-            border: 5px solid rgb(94, 7, 7); 
-            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
-            border-radius: 10px;
-            transition: 0.3s; 
+        .pol img {
+            max-width: 200px; /*define a largura máxima do elemento*/
+            height: auto; /*ajusta a altura automaticamente*/
+            border: 5px solid rgb(94, 7, 7); /*adiciona uma borda/adiciona cor a borda*/
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /*adiciona um esfumado tipo uma sombra*/
+            border-radius: 10px; /*ele suavizar as pontas da borda*/
+            transition: 0.3s; /*adicionar uma transição para uma mudança*/
         }
-.pol img:hover {
-            transform: scale(1.05);
-            box-shadow: 0px 8px 25px rgba(255, 0, 0, 0.5);
-            border-color: #ff0000;
+        /*efeito hover au passar o mauser */
+        .pol img:hover {
+            transform: scale(1.05); /*aumenta o tamanho do elemento em 5%*/
+            box-shadow: 0px 8px 25px rgba(255, 0, 0, 0.5); /*adiciona um esfumado tipo uma sombra*/
+            border-color: #ff0000; /*adiciona cor a borda*/
         } 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------*/
-        body{background-color: rgb(46, 12, 12);}
-        h1{color: rgb(2, 20, 43);}
-        p{color: aliceblue;}
-        h2{color: aliceblue;}
-        
+        body{background-color: rgb(46, 12, 12);} /*adiciona cor de fundo no site*/    
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------*/        
         .galeria {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-            padding: 50px;
-            background-color: #5e1616;
+            display: flex; /*ativa o Flexbox/alinha automaticamente*/
+            justify-content: center; /*centraliza os elementos*/
+            gap: 20px; /* adiciona espaço entre os elementos */
+            flex-wrap: wrap; /* quebra linha quando faltar espaço */
+            padding: 50px; /*o espaço interno*/
+            background-color: #5e1616; /*adiciona cor de fundo au bloco*/
         }
 
         .galeria img {
-            max-width: 200px;
-            height: auto;
-            border: 5px solid rgb(94, 7, 7); 
-            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
-            border-radius: 10px;
-            transition: 0.3s;
+            max-width: 200px; /*define a largura máxima do elemento*/
+            height: auto;  /*ajusta a altura automaticamente*/
+            border: 5px solid rgb(94, 7, 7); /*adiciona uma borda/adiciona cor a borda*/
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);  /*adiciona um esfumado tipo uma sombra*/
+            border-radius: 10px; /*ele suavizar as pontas da borda*/
+            transition: 0.3s; /*adicionar uma transição para uma mudança*/
         }
 
         .galeria img:hover {
-            transform: scale(1.05);
-            box-shadow: 0px 8px 25px rgba(255, 0, 0, 0.5);
-            border-color: #ff0000;
+            transform: scale(1.05); /*aumenta o tamanho do elemento em 5%*/
+            box-shadow: 0px 8px 25px rgba(255, 0, 0, 0.5); /*adiciona um esfumado tipo uma sombra*/
+            border-color: #ff0000; /*adiciona cor a borda*/
         } 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------*/
         button {
         
-        padding: 7px 7px;
-        font-size: 20px;
+        padding: 7px 7px; /*o espaço interno*/
+        font-size: 20px; /*aumenta a fonte */
         
-        background-color: #680303; 
-        color: rgb(160, 25, 25);
+        background-color: #680303; /*adiciona cor de fundo au bloco*/
+        color: rgb(160, 25, 25); /*adiciona cor au texto dentro do button*/
         
-        border: 5px solid rgb(99, 3, 3); 
-        box-shadow: 0px 4px 15px rgba(107, 3, 3, 0.3);
-        border-radius: 10px;
+        border: 5px solid rgb(99, 3, 3); /*adiciona uma borda/adiciona cor a borda*/
+        box-shadow: 0px 4px 15px rgba(107, 3, 3, 0.3); /*adiciona um esfumado tipo uma sombra*/
+        border-radius: 10px; /*ele suavizar as pontas da borda*/
         
-        cursor: pointer;  
-        transition: 0.3s;  
-        outline: none;   
+        cursor: pointer;  /*muda o iconi do cursor */
+        transition: 0.3s;  /*adicionar uma transição para uma mudança*/
+        outline: none;   /*remove a borda de seleção do elemento*/
         }
-
+         /*efeito hover au passar o mauser */
         button:hover {
-        transform: scale(1.05);
-        box-shadow: 0px 8px 25px rgba(255, 0, 0, 0.5);
-        border-color: #ff0000;
-        background-color: #a30d0d; 
+        transform: scale(1.05); /*aumenta o tamanho do elemento em 5%*/
+        box-shadow: 0px 8px 25px rgba(255, 0, 0, 0.5); /*adiciona um esfumado tipo uma sombra*/
+        border-color: #ff0000;  /*adiciona cor a borda*/
+        background-color: #a30d0d; /*adiciona cor de fundo au bloco*/
         }
     /*---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+         /*adiciona uma fonte e dar cor a todos P*/
         p{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: #cc0404;font-size: 20;}
-
+        /*centraliza as imagem*/
         img{text-align: center;}
-
+        /*adiciona uma fonte e centraliza e dar cor a todos H1*/
         h1{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: center; color: #a51a01;}
 
-        section{text-align: center;
-            background: rgba(0, 0, 0, 0.555);
+        section{
+            text-align: center; /*centraliza o (section) no centro da tela */
+            background: rgba(0, 0, 0, 0.555); /*adiciona cor de fundo*/
             backdrop-filter: blur(10px);
-            padding: 30px;
-            margin: 30px auto;
-            border-radius: 30px;
-            max-width: 800px;
-            border: 1px solid rgba(255, 51, 0, 0.2);
-            box-shadow: 0 0 30px rgba(255, 51, 0, 0.3);
+            padding: 30px; /*o espaço interno*/
+            margin: 30px auto; /*adiciona espaço em cima/baixo (30px) e centraliza o elemento horizontalmente (auto)*/
+            border-radius: 30px; /*ele suavizar as pontas da borda*/
+            max-width: 800px; /*define a largura máxima do elemento*/
+            border: 1px solid rgba(255, 51, 0, 0.2);  /*adiciona uma borda/adiciona cor a borda*/
+            box-shadow: 0 0 30px rgba(255, 51, 0, 0.3); /*adiciona um esfumado tipo uma sombra*/
         }
-        
+         /*adiciona uma fonte e dar cor a todos A*/
         a{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: #420101;}
-         
+         /*centraliza as lista*/
         li{text-align: center;}
+         /*adiciona uma fonte e dar cor a todos footer*/
         footer{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: #ff0000; }
     /*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-    /* CSS EXTRA PARA JS */
-    #theme-toggle { 
-      padding:10px; 
-      background:#ff6600; 
-      border:none; 
-      border-radius:50%; 
-      cursor:pointer; 
-      font-size:20px; 
-      box-shadow: 0px 4px 15px rgba(255, 102, 0, 0.3);
-      transition: 0.3s;
-    }
-    #theme-toggle:hover {
-      transform: scale(1.1);
-      box-shadow: 0px 8px 25px rgba(255, 102, 0, 0.5);
-    }
-    body.light-mode { 
-      background:#f4e4bc !important; 
-      color: #333;
-    }
-    body.light-mode section { 
-      background:rgba(255,255,255,0.95) !important; 
-      border-color: rgba(255, 102, 0, 0.5);
-      box-shadow: 0 0 30px rgba(255, 102, 0, 0.3);
-    }
-    body.light-mode h1 { 
-      color:#b33a00 !important; 
-    }
-    body.light-mode p { 
-      color:#333 !important; 
-    }
-    body.light-mode a { color: #b33a00; }
-    nav button.active { 
-      background:#ff4400 !important; 
-      box-shadow: 0 0 20px #ff4400 !important;
-      transform: scale(1.05);
-    }
-    #contador {
-      background: #680303 !important;
-      color: white;
-      padding: 10px 15px;
-      border-radius: 10px;
-      font-weight: bold;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-    }
-
